@@ -1,0 +1,22 @@
+{
+  "name": "date-interceptor",
+  "version": "1.0.0",
+  "description": "Angularjs,if json property has an date string like 2000-01-01,this will transform to date type.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DateInterceptor"
+  },
+  "keywords": [
+    "angularjs",
+    "String",
+    "date",
+    "to",
+    "date"
+  ],
+  "author": "",
+  "license": "MIT"
+}
