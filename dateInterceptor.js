@@ -1,6 +1,6 @@
 ﻿(function (app) {
     app.factory('dateInterceptor', function () {
-            var regexIsoUtc = /(\d{4})-(\d{2})-(\d{2})T(\d{2})\:(\d{2})\:(\d{2})\+(\d{2})\:(\d{2})/;
+            var regexIsoUtc = /(\d{4})-(\d{2})-(\d{2})T(\d{2})\:(\d{2})\:(\d{2})(.\d*)?\+(\d{2})\:(\d{2})/;
 
             function matchDate(dateString) {
                 return dateString.match(regexIsoUtc);
