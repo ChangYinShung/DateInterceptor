@@ -44,4 +44,4 @@
     function HttpConfig($httpProvider) {
         $httpProvider.interceptors.push('dateInterceptor'); // intercept responses and convert date strings into real dates
     }
-})(angular.module('YC.Common'));
+})(angular.module('dateInterceptor',[]));
